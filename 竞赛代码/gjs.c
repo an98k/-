@@ -531,7 +531,7 @@ void Print_OrderInfo(OrderInfo_def *ddxx)
 
 		}
 	}	
-	fprintf(fp_print,"客户卡号：%s 会员姓名：%s 客户等级：%s 累计积分：[%ld]\n\n",
+	fprintf(fp_print,"客户卡号：%s 会员姓名：%s 客户等级：%s 累计积分：%ld\n\n",
 		ddxx->memberId,
 		GOLBAL_MEMINFO[member_idx].name,
 		GOLBAL_MEMINFO[member_idx].level,
